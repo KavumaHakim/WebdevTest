@@ -16,8 +16,9 @@ textarea{
     resize: none;
     border-radius: 5px;
     border-color: blueviolet;
-    width: 100%;
-    height: 50px;
+    height: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px; 
 
 }
 textarea:focus{
@@ -30,5 +31,23 @@ article div{
     border: 2px rebeccapurple solid;
     border-radius: 5px;
     padding: 10px;
-    width: 300px;
+    width: max-content;
+}
+
+button{
+    padding: 15px;
+    margin: 2px;
+    border-radius: 100%;
+    border: 1px rgb(187, 0, 255) solid;
+    background-color: blueviolet;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    transition: 200ms ease-in;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+button:hover{
+    color: rgb(0, 254, 250);
+    background-color: rgb(128, 0, 255);
 }
