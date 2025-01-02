@@ -10,16 +10,19 @@ h2:hover{
     text-decoration: dotted underline;
 }
 
-textarea{
-    text-align: right;
+input{
+    text-align: end;
+    pointer-events: none;
+
     grid-column: 1 / span 5;
-    resize: none;
-    border-radius: 5px;
+    border-radius: 15px;
     border-color: blueviolet;
     height: 70px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px; 
+    font-family: Cambria, elephant, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    color: rgba(235, 8, 235, 0.809);
 
+    
 }
 textarea:focus{
     border-color: rgb(255, 0, 187);
@@ -34,14 +37,18 @@ article div{
     width: max-content;
 }
 
+article{
+    margin: 10px;
+}
+
 button{
     padding: 15px;
     margin: 2px;
-    border-radius: 100%;
+    border-radius: 15px;
     border: 1px rgb(187, 0, 255) solid;
     background-color: blueviolet;
     color: white;
-    font-size: larger;
+    font-size: 20px;
     cursor: pointer;
     transition: 200ms ease-in;
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -50,4 +57,10 @@ button{
 button:hover{
     color: rgb(0, 254, 250);
     background-color: rgb(128, 0, 255);
+}
+
+#clear{
+    grid-column: 1/ span 5;
+    border-radius: 15px;
+    font-size:x-large;
 }
