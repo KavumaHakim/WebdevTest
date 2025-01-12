@@ -107,15 +107,19 @@ main{
     
 }
 
+section{
+    background-color: rebeccapurple;
+}
 section p{
     font-size: 1.5rem;
-    padding: 10px;
+    color: white;
+    padding: 15px;
     text-align: justify;
 }
 
 section h2{
     text-align: center;
-    color: purple;
+    color: rgb(235, 173, 15);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
